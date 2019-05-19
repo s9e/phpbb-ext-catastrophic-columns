@@ -37,7 +37,7 @@ class listener implements EventSubscriberInterface
 					$colName    = 'r:' . $tagName . '-' . $m[1];
 					$colNames[] = $colName;
 
-					return '<xsl:apply-templates select="' . $colName . '"/>';
+					return '<xsl:choose><xsl:when test="' . $colName . '"><xsl:apply-templates select="' . $colName . '"/></xsl:when><xsl:otherwise>' . $m[0] . '</xsl:otherwise></xsl:choose>';
 				},
 				$tag->template
 			);
