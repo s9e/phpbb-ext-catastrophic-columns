@@ -1,0 +1,19 @@
+{
+	"name": "s9e/catastrophiccolumns",
+	"type": "phpbb-extension",
+	"description": "Do not install this extension.",
+	"homepage": "https://github.com/s9e/phpbb-ext-catastrophic-columns/",
+	"version": "1.0.0",
+	"keywords": ["phpbb"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4.7"
+	},
+	"authors": [{ "name": "JoshyPHP" }],
+	"extra": {
+		"display-name": "s9e/catastrophic-columns",
+		"soft-require": {
+			"phpbb/phpbb": "3.2.7"
+		}
+	}
+}

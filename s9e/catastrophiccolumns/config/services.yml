@@ -1,0 +1,5 @@
+services:
+  s9e.catastrophiccolumns.listener:
+    class: s9e\catastrophiccolumns\listener
+    tags:
+      - { name: event.listener }
