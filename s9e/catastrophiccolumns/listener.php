@@ -2,7 +2,7 @@
 
 /**
 * @package   s9e\catastrophiccolumns
-* @copyright Copyright (c) 2019 The s9e Authors
+* @copyright Copyright (c) 2019-2022 The s9e authors
 * @license   http://www.opensource.org/licenses/mit-license.php The MIT License
 */
 namespace s9e\catastrophiccolumns;
@@ -25,7 +25,7 @@ class listener implements EventSubscriberInterface
 		$colNames = [];
 		foreach ($configurator->tags as $tagName => $tag)
 		{
-			if (!preg_match('(^COL(\\d+)$)', $tagName, $m))
+			if (!preg_match('(^COL\\d*$)', $tagName))
 			{
 				continue;
 			}

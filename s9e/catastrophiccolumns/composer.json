@@ -3,7 +3,7 @@
 	"type": "phpbb-extension",
 	"description": "Do not install this extension.",
 	"homepage": "https://github.com/s9e/phpbb-ext-catastrophic-columns/",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"keywords": ["phpbb"],
 	"license": "MIT",
 	"require": {
